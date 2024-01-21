@@ -1,0 +1,84 @@
+/* Tablet screens */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 65px;
+        line-height: 60px;
+        margin-top: 120px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .child-1 {
+        width: 70px;
+        left: 10%;
+    }
+
+    .child-2 {
+        width: 70px;
+        right: 30%;
+        margin-top: 15%;
+    }
+
+    .child-3 {
+        width: 90px;
+    }
+
+    .child-4 {
+        margin-top: 35%;
+        right: 15%;
+    }
+
+    .child-5 {
+        right: 40%;
+        top: 60px;
+    }
+
+    .child-6 {
+        margin-top: 28%;
+        right: 40%;
+    }
+    
+}
+
+/* Mobile screens */
+
+@media (max-width: 480px) {
+    .child-2 {
+        display: none;
+    }
+
+    .child-3 {
+        right: 5%;
+        width: 120px;
+    }
+
+    .child-4 {
+        display: none;
+    }
+
+    .child-5 {
+        display: none;
+    }
+
+    .child-6 {
+        margin-top: 100%;
+        right: 10%;
+    }
+
+    h2 {
+        font-size: 35px;
+        margin-top: 90px;
+    }
+
+    button {
+        margin-bottom: 90px;
+    }
+
+    .social img {
+        width: 30px;
+    }
+
+
+}
